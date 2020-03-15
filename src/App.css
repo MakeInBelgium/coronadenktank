@@ -1,0 +1,31 @@
+
+
+h1 {
+  font-family: Raleway;
+  font-size: 2em;
+  font-weight: bold;
+color: #707070;
+
+}
+
+
+p {
+  font-family: Roboto, sans-serif;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+a{
+  text-decoration: underline;
+  color: #999;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 14px;
+
+}
