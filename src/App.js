@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
+import "./assets/normalize.css";
+import "./assets/skeleton.css";
+import "./App.css";
 import IkHebGemaaktComponent from "./components/IkHebGemaaktComponent";
 import Privacy from "./components/Privacy";
 
