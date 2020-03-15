@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { css } from 'glamor'
 import ErrorComponent from './ErrorComponent'
 import { Link } from 'react-router-dom'
 
+
+const menuHolder = css({
+  width: '100%',
+  display: 'block',
+  color: '#aaa'
+})
 const IkHebGemaaktComponent = () => {
   const [naam, setNaam] = useState("")
   const [achternaam, setAchternaam] = useState("")
@@ -27,7 +34,7 @@ const IkHebGemaaktComponent = () => {
     const source = CancelToken.source();
     const sendData = () => {
       axios({
-        url: `http://134.122.48.172:3000/aanbiedingen`,
+        url: `https://maakhet.be/aanbiedingen`,
         cancelToken: source.token,
         method: "POST",
         data: {
@@ -66,15 +73,17 @@ const IkHebGemaaktComponent = () => {
   }, [submitting])
   return (
     <div className="container">
+      <div {...menuHolder} >
+        <h2>Ik heb gemaakt</h2>
+      </div>
 
       {
-        error ? <ErrorComponent setHide={() => setError(null)} message={"Erging iets mis, probeer aub opnieuw"} /> : null}
+        error ? <ErrorComponent setHide={() => setError(null)} message={"Er ging iets mis, probeer aub opnieuw"} /> : null}
 
       <form onSubmit={(e) => {
         e.preventDefault()
         setSubmitting(true)
       }}>
-        <h1>Ik heb gemaakt</h1>
         <div className="u-full-width">
           <div className="four columns">
             <label htmlFor="hoeveelheid">Hoeveelheid</label>

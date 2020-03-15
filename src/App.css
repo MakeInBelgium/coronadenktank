@@ -7,7 +7,10 @@ h1 {
 color: #707070;
 
 }
-
+h3 {
+font-size: 1.3em;
+font-weight: bold
+}
 
 p {
   font-family: Roboto, sans-serif;
@@ -29,3 +32,16 @@ a{
   font-size: 14px;
 
 }
+
+.value-prop {
+  text-align: center;
+  padding: 10px;
+box-sizing: border-box;
+}
+.value-img{
+margin-bottom:50px
+}
+
+
+li {
+font-family: 'Open sans'}
