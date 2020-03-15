@@ -1,14 +1,32 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import "./App.css";
+import IkHebGemaaktComponent from "./components/IkHebGemaaktComponent";
+import Privacy from "./components/Privacy";
 
 function App() {
   const [error, setError] = useState(null);
 
   return (
     <div className="App">
-      <h1>Welkom</h1>
-      <p>We werken momenteel nog aan deze site</p>
-      <a href="mailto:info@ikmaakmee.be">Stuur maar een mailtje als je vragen hebt</a>
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <IkHebGemaaktComponent />
+          </Route>
+          <Route path="/privacy" exact>
+            <Privacy />
+          </Route>
+          <Route path="/ikhebgemaakt" exact>
+            doorlinken
+            </Route>
+
+          <Route path="/ikwilmeermaken" exact>
+            doorlinken
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
