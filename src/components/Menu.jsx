@@ -8,13 +8,17 @@ const Menu = () => {
 
       <nav className="navbar u-full-width" style={{ textAlign: 'center' }}>
         <ul className="navbar-list">
-          <li className="navbar-item"><Link className="navbar-link" to="/">Instructies</Link></li>
+          <li className="navbar-item">
+            <Link className="navbar-link" to="/">Instructies</Link>
+          </li>
           <li className="navbar-item">
             <Link className="navbar-link" to="/ikhebgemaakt">Ik heb gemaakt</Link>
           </li>
-          <li className="navbar-item"><Link className="navbar-link" to="/meermaken">Ik wil meer maken</Link></li>
           <li className="navbar-item">
-            <Link className="navbar-link" to="/contact">Contact</Link>
+            <Link className="navbar-link" to="/meermaken">Meer maken</Link>
+          </li>
+          <li className="navbar-item">
+            <Link className="navbar-link" to="/kaart">Op de kaart</Link>
           </li>
         </ul>
       </nav>
