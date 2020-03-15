@@ -15,6 +15,7 @@ const IkHebGemaaktComponent = () => {
   const [hoeveelheid, setHoeveelheid] = useState(null)
   const [hulpmiddel, setHulpmiddel] = useState("maskers")
   const [readAndAgreed, setReadAndAgreed] = useState(false)
+  const [kanOphalen, setKanOphalen] = useState(false)
 
   const [submitting, setSubmitting] = useState(false)
   const [data, setData] = useState(null)
@@ -26,7 +27,7 @@ const IkHebGemaaktComponent = () => {
     const source = CancelToken.source();
     const sendData = () => {
       axios({
-        url: `http://localhost:3000/aanbiedingen`,
+        url: `http://134.122.48.172:3000/aanbiedingen`,
         cancelToken: source.token,
         method: "POST",
         data: {
@@ -40,7 +41,8 @@ const IkHebGemaaktComponent = () => {
           postcode,
           hoeveelheid,
           hulpmiddel,
-          readAndAgreed
+          readAndAgreed,
+          kanOphalen
         },
 
         headers: {
@@ -128,7 +130,14 @@ const IkHebGemaaktComponent = () => {
         </div>
         <div>
           <label className="u-full-width">
-            <input type="checkbox" checked={readAndAgreed} onChange={(e) => { console.log(e.target.checked); return setReadAndAgreed(e.target.checked) }} />
+            <input type="checkbox" checked={kanOphalen} onChange={(e) => { return setKanOphalen(e.target.checked) }} />
+            <span className="label-body">Ik kan in mijn buurt hulpmiddelen verzamelen.</span>
+          </label>
+        </div>
+
+        <div>
+          <label className="u-full-width">
+            <input type="checkbox" checked={readAndAgreed} onChange={(e) => { return setReadAndAgreed(e.target.checked) }} />
             <span className="label-body">Ik heb de <Link to="/privacy" target="_blanc">voorwaarden rond gegevensverwerking gelezen</Link></span>
           </label>
         </div>
