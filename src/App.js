@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Welkom</h1>
       <p>We werken momenteel nog aan deze site</p>
-      <a href="mailto:jan@crashlab.be">Stuur maar een mailtje als je vragen hebt</a>
+      <a href="mailto:info@ikmaakmee.be">Stuur maar een mailtje als je vragen hebt</a>
     </div>
   );
 }
