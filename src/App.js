@@ -13,6 +13,7 @@ import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
 import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 import IkHebNodigExternal from "./components/IkHebNodigExternal";
+import InzamelPuntenComponent from "./components/InzamelPuntenComponent";
 
 function App() {
   const [error, setError] = useState(null);
@@ -35,7 +36,7 @@ function App() {
             <PromoMateriaalLijst />
           </Route>
           <Route path="/inzamelpunten" exact>
-            <PromoMateriaalLijst />
+            <InzamelPuntenComponent />
           </Route>
           <Route path="/ikhebgemaakt" exact>
             <IkHebGemaaktExternal />
