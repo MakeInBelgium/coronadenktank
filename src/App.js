@@ -12,6 +12,7 @@ import Instructies from "./components/Instructies";
 import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
 import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
+import IkHebNodigExternal from "./components/IkHebNodigExternal";
 
 function App() {
   const [error, setError] = useState(null);
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/ikhebgemaakt" exact>
             <IkHebGemaaktExternal />
+          </Route>
+          <Route path="/ikHebNodig" exact>
+            <IkHebNodigExternal />
           </Route>
 
           <Route path="/ikwilmeermaken" exact>
