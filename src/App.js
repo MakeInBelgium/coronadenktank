@@ -10,6 +10,7 @@ import Privacy from "./components/Privacy";
 import Menu from "./components/Menu";
 import Instructies from "./components/Instructies";
 import TextielMasker from "./components/Instructions/TextielMasker";
+import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
 
 function App() {
   const [error, setError] = useState(null);
@@ -22,11 +23,14 @@ function App() {
           <Route path="/" exact>
             <Instructies />
           </Route>
-          <Route path="/textielmasker" exact>
+          <Route path="/instructies/textielmasker" exact>
             <TextielMasker />
           </Route>
           <Route path="/privacy" exact>
             <Privacy />
+          </Route>
+          <Route path="/awareness" exact>
+            <PromoMateriaalLijst />
           </Route>
           <Route path="/ikhebgemaakt" exact>
             <IkHebGemaaktComponent />

@@ -34,7 +34,7 @@ const IkHebGemaaktComponent = () => {
     const source = CancelToken.source();
     const sendData = () => {
       axios({
-        url: `http://localhost:3000/aanbiedingen`,
+        url: `https://maakhet.be/aanbiedingen`,
         cancelToken: source.token,
         method: "POST",
         data: {

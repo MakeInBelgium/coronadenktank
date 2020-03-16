@@ -17,6 +17,9 @@ const Menu = () => {
           <li className="navbar-item">
             <Link className="navbar-link" to="/kaart">Op de kaart</Link>
           </li>
+          <li className="navbar-item">
+            <Link className="navbar-link" to="/awareness">Awareness</Link>
+          </li>
         </ul>
       </nav>
       <div className="navbar-spacer"></div>
