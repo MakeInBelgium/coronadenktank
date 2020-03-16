@@ -11,11 +11,12 @@ import Menu from "./components/Menu";
 import Instructies from "./components/Instructies";
 // import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
-import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
+// import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 import IkHebNodigExternal from "./components/IkHebNodigExternal";
 import InzamelPuntenComponent from "./components/InzamelPuntenComponent";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import IkHebMaskers from "./components/IkHebMaskers";
 
 function App() {
 
@@ -43,8 +44,8 @@ function App() {
             <Route path="/inzamelpunten" exact>
               <InzamelPuntenComponent />
             </Route>
-            <Route path="/ikhebgemaakt" exact>
-              <IkHebGemaaktExternal />
+            <Route path="/ikhebmaskers" exact>
+              <IkHebMaskers />
             </Route>
             <Route path="/ikHebNodig" exact>
               <IkHebNodigExternal />

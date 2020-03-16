@@ -13,7 +13,7 @@ const Menu = () => {
           <Link className="navbar-link" to="/instructies">Instructies</Link>
         </li>
         <li className="navbar-item">
-          <Link className="navbar-link" to="/ikhebgemaakt">Ik heb maskers/...</Link>
+          <Link className="navbar-link" to="/ikhebmaskers">Ik heb maskers/...</Link>
         </li>
         <li className="navbar-item">
           <Link className="navbar-link" to="/inzamelpunten">Inzamelpunten</Link>
