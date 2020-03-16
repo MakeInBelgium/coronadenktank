@@ -21,7 +21,7 @@ const Menu = () => {
             <Link className="navbar-link" to="/ikHebNodig">Ik heb nodig</Link>
           </li>
           <li className="navbar-item">
-            <Link className="navbar-link" to="/awareness">Awareness</Link>
+            <Link className="navbar-link" to="/awareness">Bewustmaking</Link>
           </li>
         </ul>
       </nav>
