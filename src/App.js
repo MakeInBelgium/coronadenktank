@@ -11,6 +11,7 @@ import Menu from "./components/Menu";
 import Instructies from "./components/Instructies";
 import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
+import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 
 function App() {
   const [error, setError] = useState(null);
@@ -33,7 +34,7 @@ function App() {
             <PromoMateriaalLijst />
           </Route>
           <Route path="/ikhebgemaakt" exact>
-            <IkHebGemaaktComponent />
+            <IkHebGemaaktExternal />
           </Route>
 
           <Route path="/ikwilmeermaken" exact>
