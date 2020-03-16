@@ -26,9 +26,9 @@ function App() {
           <Route path="/" exact>
             <Instructies />
           </Route>
-          <Route path="/instructies/textielmasker" exact>
+          {/* <Route path="/instructies/textielmasker" exact>
             <TextielMasker />
-          </Route>
+          </Route> */}
           <Route path="/privacy" exact>
             <Privacy />
           </Route>
