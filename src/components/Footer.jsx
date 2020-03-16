@@ -9,7 +9,7 @@ const footer = css({
 const Footer = () => {
   return (
     <div className="u-full-width" {...footer}>
-      <a href="http://makeinbelgium.slack.com/" target="_blanc">Structureel meehelpen aan dit initiatief?</a>
+      <a href="https://join.coronadenktank.be/" target="_blanc">Structureel meehelpen aan dit initiatief?</a>
     </div>
   )
 }

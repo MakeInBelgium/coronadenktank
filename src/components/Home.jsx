@@ -6,7 +6,7 @@ const Home = () => {
       <div className="six columns">
         <h3>Ik wil helpen:</h3>
         <ul>
-          <li>Chatten met andere makers: <a href="https://join.slack.com/t/makeinbelgium/shared_invite/zt-784dho2p-lHZSCmJoFT0nPHuHl7rp3g" target="_blanc"> Slack</a></li>
+          <li>Chatten met andere makers: <a href="https://join.coronadenktank.be/" target="_blanc"> Slack</a></li>
           <li>Overzicht van alle projecten: <a href="https://trello.com/invite/b/JLT0eWH6/19a945a650244468fbb3b557c514bc62/make-in-belgium-corona" target="_blanc">Trello board</a></li>
           <li>De ict coördinatoren van Vlaamse scholen zijn verschillende websites en mogelijkheden aan het verzamelen. <a href="https://padlet.com/karinwinters/cbk6nmdovyho" target="_blanc">Hier is al een lijst die nu online staat: Padlet </a></li>
         </ul>
