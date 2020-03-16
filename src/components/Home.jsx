@@ -43,7 +43,7 @@ const Home = () => {
         <h3>Socials</h3>
         <ul>
           <li><a href="https://twitter.coronadenktank.be" target="_blanc">Twitter</a></li>
-          <li><a href="https://facebook.coronadenktank.be" target="_blanc">Facebook</a></li>
+          <li><a href="https://fb.coronadenktank.be" target="_blanc">Facebook</a></li>
           <li><a href="https://instagram.coronadenktank.be" target="_blanc">Instagram</a></li>
         </ul>
       </div>
