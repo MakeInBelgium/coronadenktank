@@ -14,6 +14,7 @@ import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
 import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 import IkHebNodigExternal from "./components/IkHebNodigExternal";
 import InzamelPuntenComponent from "./components/InzamelPuntenComponent";
+import Footer from "./components/Footer";
 
 function App() {
   const [error, setError] = useState(null);
@@ -49,6 +50,7 @@ function App() {
             doorlinken
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
