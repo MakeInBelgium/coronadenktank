@@ -34,6 +34,9 @@ function App() {
           <Route path="/awareness" exact>
             <PromoMateriaalLijst />
           </Route>
+          <Route path="/inzamelpunten" exact>
+            <PromoMateriaalLijst />
+          </Route>
           <Route path="/ikhebgemaakt" exact>
             <IkHebGemaaktExternal />
           </Route>
