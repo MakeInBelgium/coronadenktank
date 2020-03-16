@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { css } from 'glamor'
 
 const credit = css({
@@ -28,7 +27,7 @@ const PromoMateriaalLijst = () => {
       <div className="four columns value-prop">
         <a href="https://www.willempirquin.be/stopcorona/" target={'_blanc'}>
           <div {...teaser}>
-            <img src={'https://i1.wp.com/www.willempirquin.be/wp-content/uploads/2020/03/Afstand_Wallpaper.png?resize=1024%2C640&ssl=1'} />
+            <img src={'https://i1.wp.com/www.willempirquin.be/wp-content/uploads/2020/03/Afstand_Wallpaper.png?resize=1024%2C640&ssl=1'} alt="teaser of the material" />
           </div>
           Posters</a>
         <a href="https://www.willempirquin.be/" {...credit} target="_blanc" className="u-full-width">Willem pirquin</a>

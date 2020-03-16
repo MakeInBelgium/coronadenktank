@@ -28,14 +28,6 @@ const list = css({
   }
 });
 
-const ctaBox = css({
-  width: "100%",
-  textAlign: "center",
-  "> a": {
-    margin: "10px"
-  }
-});
-
 const Privacy = () => {
   return (
     <>

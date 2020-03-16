@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { css } from 'glamor'
 import Mask from './../assets/mask.svg'
 import Skirt from './../assets/skirt.svg'
@@ -20,16 +20,16 @@ const Instructies = () => {
         <div className="value-props row">
           <div className="four columns value-prop">
             {/* <Link to="/instructies/textielmasker"> */}
-            <img className="value-img" src={Mask} />
+            <img className="value-img" src={Mask} alt="" />
           Textielen mondmasker
 {/* </Link> */}
           </div>
           <div className="four columns value-prop">
-            <img className="value-img" src={Skirt} />
+            <img className="value-img" src={Skirt} alt="" />
         Voorbind schort
       </div>
           <div className="four columns value-prop">
-            <img className="value-img" src={Mould} />
+            <img className="value-img" src={Mould} alt="" />
         FFP masker
       </div>
         </div>
