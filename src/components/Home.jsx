@@ -35,6 +35,7 @@ const Home = () => {
               <li>Slack (chat + video conferencing)</li>
               <li>Discord (chat + stem)</li>
               <li>Zoom (video conferencing)</li>
+              <li><strong><a href="http://praatbox.coronadenktank.be/" target="_blanc">Praatbox</a></strong> (specifiek voor deze situatie ontwikkeld)</li>
             </ul>
           </li>
         </ul>
