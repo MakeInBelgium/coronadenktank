@@ -26,40 +26,54 @@ const TextielMasker = () => {
 
 
       <h1 id="stoffenmedischverzorgingsmaskermetvervangbarefilter">Stoffen medisch verzorgingsmasker met vervangbare filter</h1>
+      <h3>Concept</h3>
+      <p>Dit masker heeft een stoffen wasbare buitenlaag zodat het hergebruikt kan worden.</p>
+      <p>Het werkt als een mini kussensloop: onderaan zit een opening met een omslag, net zoals bij de meeste kussenslopen. In die opening kan een vervangbare filter geschoven worden die dan door de omslag op zijn plaats gehouden wordt.</p>
+      <p>Dit model is gebaseerd op een ontwerp van een Taiwanese arts en verder uitgewerkt op basis van info over de zelfgemaakte maskers van het AZ Sint Maarten te Mechelen.</p>
+      <p><a href="https://mustsharenews.com/cloth-face-mask/" target="_blanc">(https://mustsharenews.com/cloth-face-mask/)</a></p>
+      <h3>Instructies voor gebruik</h3>
+      <ul>
+        <li>indien mondmasker of filter nat is: vervangen</li>
+        <li>het mondmasker zo vaak mogelijk steriliseren en/of wassen: steriliseren doe je door het masker minstens 10 minuten in water van meer dan 70°C onder te dompelen</li>
+      </ul>
+      <h3>Disclaimer</h3>
+      <p>Handen wassen en afstand houden blijft belangrijk!</p>
+      <h3>Moeilijkheidsgraad</h3>
+      <p><strong>Medium</strong>: het patroon is rechthoekig dus eenvoudig om uit te snijden, maar de plooitjes vergen toch enige handigheid.</p>
 
       <h3 id="maat">Maat</h3>
 
       <p>Large</p>
-
+      <p>Om een kleinere maat te maken kan je:</p>
+      <p>de breedte versmallen: L = 20cm, M = 19cm, S = 18cm</p>
+      <p>de lengte inkorten door het stuk tussen 0.5 en 6.0 en het stuk tussen 30.0 en 35.5 (zie patroon) met dezelfde afstand in te korten. Dus van beide stukken neem je evenveel weg. Eventueel maak je ook het stuk tussen 14.0 en 24.0 korter. Je kan dit eenvoudig doen door het patroon gewoon over te tekenen en het patroon vervolgens op de hierboven beschreven plaatsen een plooi te maken.</p>
       <h3 id="doorsnede">Doorsnede</h3>
       <img src={doorsnede} />
 
       <h3 id="materiaal">Materiaal</h3>
 
       <ul>
-        <li>lap stof voor de buitenkant (TODO: te bepalen welke stof) 20 x 38 cm</li>
+        <li>lap stof voor de buitenkant 20 x 38 cm: de stof moet goed ademen en mag geen vocht absorberen. Gebruik dus bij voorkeur een synthetische stof (nylon, polyester). Vermijd stoffen die heel erg rekken omdat het masker dan minder goed zijn vorm zal houden. Stoffen met veel rek zijn ook moeilijker te verwerken onder de naaimachine. Was de stof eventueel voor zodat je masker niet te veel krimpt bij zijn eerste (hete) sterilisatiebeurt.</li>
 
         <li>4 linten van 50 cm</li>
 
-        <li>vervangbaar filtermateriaal 17 x 13 cm (TODO: juiste afmetingen nog testen)</li>
+        <li>vervangbaar filtermateriaal 17 x 13 cm (bv. bakpapier)</li>
       </ul>
 
-      <h3 id="productiestappen">Productiestappen</h3>
 
-      <h2 id="productielijn">Productielijn</h2>
+      <h3 id="productielijn">Productielijn</h3>
 
       <ul>
         <li>om de productie te versnellen kan er aan de band gewerkt worden door alle stappen afzonderlijk na elkaar voor een aantal maskers te herhalen: bv: snij eerste 10 lappen stof, veertig linten, vervolgens tienmaal het patroon aftekenen, enz. Zo vermijd je om iedere keer van focus en materiaal te moeten wijzigen</li>
 
-        <li>dit bandwerk kan eventueel verdeelt worden: 1 iemand snijdt, één iemand tekent het patroon
-over, enz.</li>
+        <li>dit bandwerk kan eventueel verdeelt worden: 1 iemand snijdt, één iemand tekent het patroon over, enz.</li>
 
         <li>deze verdeling kan eventueel opgesplitst worden over verschillende locaties: bv. Pieter levert
         stof aan Jos, Jos snijdt stof, Marie komt oppikken en tekent patroon uit, Marie’s vrouw Eva
 strijkt plooien, waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...</li>
       </ul>
 
-      <h2 id="snijdenvandestof">Snijden van de stof</h2>
+      <h3 id="snijdenvandestof">Snijden van de stof</h3>
 
       <ul>
         <li>snij rechthoekige lappen stof van 20 x 38 cm</li>
@@ -67,9 +81,9 @@ strijkt plooien, waarna Anna de gestreken stof komt oppikken en naar Mark voert,
         <li>knip vier linten van 50 cm</li>
       </ul>
 
-      <h2 id="aftekenenvanhetpatroon">Aftekenen van het patroon</h2>
+      <h3 id="aftekenenvanhetpatroon">Aftekenen van het patroon</h3>
 
-      <h2 id="persenvandevouwen">Persen van de vouwen</h2>
+      <h3 id="persenvandevouwen">Persen van de vouwen</h3>
 
       <ul>
         <li>pers de zomen aan de korte zijden naar binnen</li>
@@ -87,7 +101,7 @@ strijkt plooien, waarna Anna de gestreken stof komt oppikken en naar Mark voert,
         <li>pers de vouwen (eventueel één per één)</li>
       </ul>
 
-      <h2 id="naaien">Naaien</h2>
+      <h3 id="naaien">Naaien</h3>
       <img src={patroon} />
       <ul>
         <li>stik de zomen aan de korte om</li>
@@ -109,7 +123,7 @@ zichtbaar zijn)</li>
         <li>stik de zijnaden</li>
       </ul>
 
-      <h2 id="afwerking">Afwerking</h2>
+      <h3 id="afwerking">Afwerking</h3>
 
       <ul>
         <li>draai het masker binnenste buiten langs de open kant (waar de zoom en omslag zitten)</li>
