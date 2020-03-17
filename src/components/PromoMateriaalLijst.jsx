@@ -32,6 +32,14 @@ const PromoMateriaalLijst = () => {
           Posters</a>
         <a href="https://www.willempirquin.be/" {...credit} target="_blanc" className="u-full-width">Willem pirquin</a>
       </div>
+      <div className="four columns value-prop">
+        <a href="https://wixmp-cdfc384f15841aaa5eab16b1.appspot.com/_api/download/file?downloadToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwiaXNzIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImp0aSI6ImQ4MTEyOGYyNGQxNSIsImV4cCI6MTU4NDQzNjc2OSwiaWF0IjoxNTg0NDM1ODU5LCJwYXlsb2FkIjp7InBhdGgiOiIvcmF3LzlmMTk3Y18wYmU4YTRlMTdmYTI0NGE0OTBmMTY1ODkyNTBlZmJhYy5wZGYifSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zLmRrQ4gl7GMJX8N-lTJMs2BUG6SbqU9GYnoa32y6K4" target={'_blanc'}>
+          <div {...teaser}>
+            <img src={'https://static.wixstatic.com/media/2a75a0_c9d698d617b54cb0aa30ce6de90fe1b5~mv2.jpg/v1/fill/w_165,h_146,al_c,q_80,usm_0.66_1.00_0.01/strijk%20anna.webp'} alt="teaser of the material" />
+          </div>
+          Planningsmateriaal</a>
+        <a href="https://www.amant.be/" {...credit} target="_blanc" className="u-full-width">Kathleen Amant</a>
+      </div>
     </div>
   )
 }
