@@ -5,18 +5,17 @@ import "./assets/normalize.css";
 import "./assets/skeleton.css";
 import "./assets/menu.css";
 import "./App.css";
-// import IkHebGemaaktComponent from "./components/IkHebGemaaktComponent";
 import Privacy from "./components/Privacy";
 import Menu from "./components/Menu";
 import Instructies from "./components/Instructies";
 import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
-// import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 import IkHebNodigExternal from "./components/IkHebNodigExternal";
 import InzamelPuntenComponent from "./components/InzamelPuntenComponent";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import IkHebMaskers from "./components/IkHebMaskers";
+import IkBenKoerier from "./components/IkBenKoerier";
 
 function App() {
 
@@ -46,6 +45,9 @@ function App() {
             </Route>
             <Route path="/ikhebmaskers" exact>
               <IkHebMaskers />
+            </Route>
+            <Route path="/ikkanrijden" exact>
+              <IkBenKoerier />
             </Route>
             <Route path="/ikHebNodig" exact>
               <IkHebNodigExternal />
