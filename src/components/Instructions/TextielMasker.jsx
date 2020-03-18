@@ -4,7 +4,6 @@ import { css } from 'glamor'
 import result from './../../assets/masker/result.jpg'
 import doorsnede from './../../assets/masker/textiel/masker_textiel.001.jpeg'
 import patroon from './../../assets/masker/textiel/masker_textiel.002.jpeg'
-import textielmaskerPatroon from './../../assets/textielmaskerPatroon.png'
 
 const bumper = css({
   width: '100%',
@@ -23,7 +22,6 @@ const TextielMasker = () => {
   return (
     <>
       <div {...bumper}></div>
-
 
       <h1 id="stoffenmedischverzorgingsmaskermetvervangbarefilter">Stoffen medisch verzorgingsmasker met vervangbare filter</h1>
       <h3>Concept</h3>
@@ -48,7 +46,7 @@ const TextielMasker = () => {
       <p>de breedte versmallen: L = 20cm, M = 19cm, S = 18cm</p>
       <p>de lengte inkorten door het stuk tussen 0.5 en 6.0 en het stuk tussen 30.0 en 35.5 (zie patroon) met dezelfde afstand in te korten. Dus van beide stukken neem je evenveel weg. Eventueel maak je ook het stuk tussen 14.0 en 24.0 korter. Je kan dit eenvoudig doen door het patroon gewoon over te tekenen en het patroon vervolgens op de hierboven beschreven plaatsen een plooi te maken.</p>
       <h3 id="doorsnede">Doorsnede</h3>
-      <img src={doorsnede} />
+      <img src={doorsnede} alt="doorsnede van het masker" />
 
       <h3 id="materiaal">Materiaal</h3>
 
@@ -102,7 +100,7 @@ strijkt plooien, waarna Anna de gestreken stof komt oppikken en naar Mark voert,
       </ul>
 
       <h3 id="naaien">Naaien</h3>
-      <img src={patroon} />
+      <img src={patroon} alt="patroon van het masker" />
       <ul>
         <li>stik de zomen aan de korte om</li>
 
