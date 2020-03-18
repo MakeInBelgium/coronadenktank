@@ -9,7 +9,9 @@ const footer = css({
 const Footer = () => {
   return (
     <div className="u-full-width" {...footer}>
-      <a href="https://join.coronadenktank.be/" target="_blanc">Structureel meehelpen aan dit initiatief?</a>
+      <a href="https://join.coronadenktank.be/" target="_blanc">Structureel meehelpen aan dit initiatief?</a><br />
+      <a href="https://github.com/MakeInBelgium/coronadenktank/issues/new" target="_blanc">Werkt er iets niet?</a>
+
     </div>
   )
 }
