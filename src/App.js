@@ -9,7 +9,7 @@ import "./App.css";
 import Privacy from "./components/Privacy";
 import Menu from "./components/Menu";
 import Instructies from "./components/Instructies";
-// import TextielMasker from "./components/Instructions/TextielMasker";
+import TextielMasker from "./components/Instructions/TextielMasker";
 import PromoMateriaalLijst from "./components/PromoMateriaalLijst";
 // import IkHebGemaaktExternal from "./components/IkhHebGemaaktExternal";
 import IkHebNodigExternal from "./components/IkHebNodigExternal";
@@ -32,9 +32,9 @@ function App() {
             <Route path="/instructies" exact>
               <Instructies />
             </Route>
-            {/* <Route path="/instructies/textielmasker" exact>
-            <TextielMasker />
-          </Route> */}
+            <Route path="/instructies/textielmasker" exact>
+              <TextielMasker />
+            </Route>
             <Route path="/privacy" exact>
               <Privacy />
             </Route>
