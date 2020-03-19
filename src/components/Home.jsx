@@ -10,6 +10,11 @@ const Home = () => {
           <li>Chatten met andere makers: <a href="https://join.coronadenktank.be/" target="_blanc"> Slack</a></li>
           <li>Overzicht van alle projecten: <a href="https://trello.com/invite/b/JLT0eWH6/19a945a650244468fbb3b557c514bc62/make-in-belgium-corona" target="_blanc">Trello board</a></li>
           <li>De ict coördinatoren van Vlaamse scholen zijn verschillende websites en mogelijkheden aan het verzamelen. <a href="https://padlet.com/karinwinters/cbk6nmdovyho" target="_blanc">Hier is al een lijst die nu online staat: Padlet </a></li>
+          <li>
+            imec en KU Leuven hebben een website met overzicht van gratis tools voor afstandsonderwijs (basis- en secundair onderwijs), ingedeeld per vak. 
+            Deze website wordt dagelijks aangevuld. Zie <a href="https://www.onderwijsgaatviraal.be" target="_blank" rel="noopener">onderwijsgaatviraal.be</a>.<br/>
+            <em>Ontbrekende tools mogen gemeld worden via het formulier op de website.</em>
+          </li>
         </ul>
       </div>
       <div className="six columns">
