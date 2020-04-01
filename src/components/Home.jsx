@@ -7,13 +7,13 @@ const Home = () => {
         <h3>Ik wil helpen:</h3>
         <ul>
           <li>Maak je eigen mondmasker: <a href="http://maakjemondmasker.be/">Maakjemondmasker.be</a></li>
-          <li>Chatten met andere makers: <a href="https://join.coronadenktank.be/" target="_blanc"> Slack</a></li>
-          <li>Overzicht van alle projecten: <a href="https://trello.com/invite/b/JLT0eWH6/19a945a650244468fbb3b557c514bc62/make-in-belgium-corona" target="_blanc">Trello board</a></li>
-          <li>De ict coördinatoren van Vlaamse scholen zijn verschillende websites en mogelijkheden aan het verzamelen. <a href="https://padlet.com/karinwinters/cbk6nmdovyho" target="_blanc">Hier is al een lijst die nu online staat: Padlet </a></li>
-          <li>Op <a href="http://klascement.net" target="_blank">KlasCement.net</a> delen leraren als 20 jaar lesmateriaal en inspiratie. Ze bundelden nuttig materiaal en inspiratie voor leraren maar nu ook voor ouders op de homepage.</li>
+          <li>Chatten met andere makers: <a href="https://join.coronadenktank.be/" target="_blank" rel="noopener noreferrer"> Slack</a></li>
+          <li>Overzicht van alle projecten: <a href="https://trello.com/invite/b/JLT0eWH6/19a945a650244468fbb3b557c514bc62/make-in-belgium-corona" target="_blank" rel="noopener noreferrer">Trello board</a></li>
+          <li>De ict coördinatoren van Vlaamse scholen zijn verschillende websites en mogelijkheden aan het verzamelen. <a href="https://padlet.com/karinwinters/cbk6nmdovyho" target="_blank" rel="noopener noreferrer">Hier is al een lijst die nu online staat: Padlet </a></li>
+          <li>Op <a href="http://klascement.net" target="_blank" rel="noopener noreferrer">KlasCement.net</a> delen leraren als 20 jaar lesmateriaal en inspiratie. Ze bundelden nuttig materiaal en inspiratie voor leraren maar nu ook voor ouders op de homepage.</li>
           <li>
             imec en KU Leuven hebben een website met overzicht van gratis tools voor afstandsonderwijs (basis- en secundair onderwijs), ingedeeld per vak.
-            Deze website wordt dagelijks aangevuld. Zie <a href="https://www.onderwijsgaatviraal.be" target="_blanc" rel="noopener">onderwijsgaatviraal.be</a>.<br />
+            Deze website wordt dagelijks aangevuld. Zie <a href="https://www.onderwijsgaatviraal.be" target="_blank" rel="noopener noreferrer">onderwijsgaatviraal.be</a>.<br />
             <em>Ontbrekende tools mogen gemeld worden via het formulier op de website.</em>
           </li>
         </ul>
@@ -42,7 +42,7 @@ const Home = () => {
               <li>Slack (chat + video conferencing)</li>
               <li>Discord (chat + stem)</li>
               <li>Zoom (video conferencing)</li>
-              <li><strong><a href="http://praatbox.coronadenktank.be/" target="_blanc">Praatbox</a></strong> (specifiek voor deze situatie ontwikkeld)</li>
+              <li><strong><a href="http://praatbox.coronadenktank.be/" target="_blank" rel="noopener noreferrer">Praatbox</a></strong> (specifiek voor deze situatie ontwikkeld)</li>
             </ul>
           </li>
         </ul>
@@ -50,9 +50,9 @@ const Home = () => {
       <div className="row">
         <h3>Socials</h3>
         <ul>
-          <li><a href="https://twitter.coronadenktank.be" target="_blanc">Twitter</a></li>
-          <li><a href="https://fb.coronadenktank.be" target="_blanc">Facebook</a></li>
-          <li><a href="https://instagram.coronadenktank.be" target="_blanc">Instagram</a></li>
+          <li><a href="https://twitter.coronadenktank.be" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://fb.coronadenktank.be" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://instagram.coronadenktank.be" target="_blank" rel="noopener noreferrer">Instagram</a></li>
         </ul>
       </div>
     </div>
