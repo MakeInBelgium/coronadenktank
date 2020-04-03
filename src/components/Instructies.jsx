@@ -1,15 +1,8 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
-import { css } from 'glamor'
 import Mask from './../assets/mask.svg'
 import Skirt from './../assets/skirt.svg'
-import Mould from './../assets/mould.svg'
-
-const opacity = css({
-  opacity: 0.2,
-  cursor: 'default',
-  textAlign: 'center'
-})
+import Helmet from './../assets/helmet.svg'
 
 const Instructies = () => {
 
@@ -29,13 +22,15 @@ Haal je naaimachines boven en roep je vriend(inn)en op om mee te doen.</p>
           <div className="four columns value-prop">
             <a href="https://creativestegencorona.be/" target="_blanc">
               <img className="value-img" src={Skirt} alt="" />
-              Voorbind schort
+              CtC schort
             </a>
           </div>
-          <div className="four columns value-prop"  {...opacity}>
-            <img className="value-img" src={Mould} alt="" />
-        FFP masker
-      </div>
+          <div className="four columns value-prop">
+            <a href="https://maakjemondmasker.be/pdf/helmmuts.pdf" target="_blanc">
+              <img className="value-img" src={Helmet} alt="" />
+              Accent helmmuts
+            </a>
+          </div>
         </div>
       </div>
     </>
