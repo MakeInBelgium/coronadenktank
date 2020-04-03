@@ -26,10 +26,12 @@ Haal je naaimachines boven en roep je vriend(inn)en op om mee te doen.</p>
               Maak je mondmasker
             </a>
           </div>
-          <div className="four columns value-prop"  {...opacity}>
-            <img className="value-img" src={Skirt} alt="" />
-        Voorbind schort
-      </div>
+          <div className="four columns value-prop">
+            <a href="https://creativestegencorona.be/" target="_blanc">
+              <img className="value-img" src={Skirt} alt="" />
+              Voorbind schort
+            </a>
+          </div>
           <div className="four columns value-prop"  {...opacity}>
             <img className="value-img" src={Mould} alt="" />
         FFP masker
